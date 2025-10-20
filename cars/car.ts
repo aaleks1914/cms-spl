@@ -8,7 +8,7 @@ export class Car {
     constructor(horsepower: number, topspeed: number, zero_to_hundred: number, color: string, registered: boolean) {
         this.horsepower = horsepower;
         this.topspeed = topspeed;
-        this.zero_to_hundred = 0;
+        this.zero_to_hundred = zero_to_hundred;
         this.color = color;
         this.registered = registered;
     }
